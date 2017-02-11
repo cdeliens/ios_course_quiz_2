@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC6DE1151E4F549C0094DB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DE1141E4F549C0094DB95 /* main.m */; };
+		AC6DE1181E4F549C0094DB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DE1171E4F549C0094DB95 /* AppDelegate.m */; };
+		AC6DE11E1E4F549C0094DB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6DE11C1E4F549C0094DB95 /* Main.storyboard */; };
+		AC6DE1201E4F549C0094DB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6DE11F1E4F549C0094DB95 /* Assets.xcassets */; };
+		ACC0599D1E4F5542003092A7 /* ColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC0599C1E4F5542003092A7 /* ColorsTableViewController.m */; };
+		ACC059A01E4F578E003092A7 /* ColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC0599F1E4F578E003092A7 /* ColorTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC6DE1101E4F549C0094DB95 /* Quiz 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6DE1141E4F549C0094DB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC6DE1161E4F549C0094DB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC6DE1171E4F549C0094DB95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC6DE11D1E4F549C0094DB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC6DE11F1E4F549C0094DB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC6DE1241E4F549C0094DB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC0599B1E4F5542003092A7 /* ColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsTableViewController.h; sourceTree = "<group>"; };
+		ACC0599C1E4F5542003092A7 /* ColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsTableViewController.m; sourceTree = "<group>"; };
+		ACC0599E1E4F578E003092A7 /* ColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTableViewCell.h; sourceTree = "<group>"; };
+		ACC0599F1E4F578E003092A7 /* ColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6DE10D1E4F549C0094DB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6DE1071E4F549C0094DB95 = {
+			isa = PBXGroup;
+			children = (
+				AC6DE1121E4F549C0094DB95 /* Quiz 2 */,
+				AC6DE1111E4F549C0094DB95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6DE1111E4F549C0094DB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DE1101E4F549C0094DB95 /* Quiz 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6DE1121E4F549C0094DB95 /* Quiz 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DE1161E4F549C0094DB95 /* AppDelegate.h */,
+				AC6DE1171E4F549C0094DB95 /* AppDelegate.m */,
+				AC6DE11C1E4F549C0094DB95 /* Main.storyboard */,
+				ACC0599E1E4F578E003092A7 /* ColorTableViewCell.h */,
+				ACC0599F1E4F578E003092A7 /* ColorTableViewCell.m */,
+				AC6DE11F1E4F549C0094DB95 /* Assets.xcassets */,
+				AC6DE1241E4F549C0094DB95 /* Info.plist */,
+				AC6DE1131E4F549C0094DB95 /* Supporting Files */,
+				ACC0599B1E4F5542003092A7 /* ColorsTableViewController.h */,
+				ACC0599C1E4F5542003092A7 /* ColorsTableViewController.m */,
+			);
+			path = "Quiz 2";
+			sourceTree = "<group>";
+		};
+		AC6DE1131E4F549C0094DB95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DE1141E4F549C0094DB95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC6DE10F1E4F549C0094DB95 /* Quiz 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6DE1271E4F549C0094DB95 /* Build configuration list for PBXNativeTarget "Quiz 2" */;
+			buildPhases = (
+				AC6DE10C1E4F549C0094DB95 /* Sources */,
+				AC6DE10D1E4F549C0094DB95 /* Frameworks */,
+				AC6DE10E1E4F549C0094DB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiz 2";
+			productName = "Quiz 2";
+			productReference = AC6DE1101E4F549C0094DB95 /* Quiz 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6DE1081E4F549C0094DB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christian Deliens";
+				TargetAttributes = {
+					AC6DE10F1E4F549C0094DB95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC6DE10B1E4F549C0094DB95 /* Build configuration list for PBXProject "Quiz 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC6DE1071E4F549C0094DB95;
+			productRefGroup = AC6DE1111E4F549C0094DB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6DE10F1E4F549C0094DB95 /* Quiz 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6DE10E1E4F549C0094DB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6DE1201E4F549C0094DB95 /* Assets.xcassets in Resources */,
+				AC6DE11E1E4F549C0094DB95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6DE10C1E4F549C0094DB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC0599D1E4F5542003092A7 /* ColorsTableViewController.m in Sources */,
+				ACC059A01E4F578E003092A7 /* ColorTableViewCell.m in Sources */,
+				AC6DE1181E4F549C0094DB95 /* AppDelegate.m in Sources */,
+				AC6DE1151E4F549C0094DB95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC6DE11C1E4F549C0094DB95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6DE11D1E4F549C0094DB95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC6DE1251E4F549C0094DB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC6DE1261E4F549C0094DB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6DE1281E4F549C0094DB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Quiz-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC6DE1291E4F549C0094DB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiz 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Quiz-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6DE10B1E4F549C0094DB95 /* Build configuration list for PBXProject "Quiz 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6DE1251E4F549C0094DB95 /* Debug */,
+				AC6DE1261E4F549C0094DB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6DE1271E4F549C0094DB95 /* Build configuration list for PBXNativeTarget "Quiz 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6DE1281E4F549C0094DB95 /* Debug */,
+				AC6DE1291E4F549C0094DB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6DE1081E4F549C0094DB95 /* Project object */;
+}
